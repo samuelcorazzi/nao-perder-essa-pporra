@@ -1,0 +1,114 @@
+body {
+    background-image: url(fazendacerta.jpg);
+    background-size: cover;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1 {
+    font-weight: 200x;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+}
+
+#primeiro {
+    color: #ebed17;
+}
+
+#segundo {
+    color: #f5f649;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+a {
+    color: white;
+    font-size: 22px;
+}
+
+a:hover {
+    color: #dadada;
+    transition: 0.3s all;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+#inscreva-se {
+    border: 3px solid purple;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscreva-se:hover {
+    background-color: purple;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 20px;
+    max-width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+form [type ="submit"] {
+    height: 50px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+
+form [type ="submit"]:hover {
+   cursor: pointer;
+   
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+aside {
+    padding: auto;
+    height: 650px;
+    width: 1000px;
+}

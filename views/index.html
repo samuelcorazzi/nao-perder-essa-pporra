@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#container-login {
+    width: 300px;
+    padding: 16px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#h1-login {
+    text-align: center;
+    color: #333;
+}
+
+#login label {
+    font-weight: bold;
+    display: block;
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#btn-login {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn-login:hover {
+    background-color: #449d44;
+}
+
+#registro {
+    margin-top: 16px;
+    text-align: center;
+}
+
+#registro a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+#registro a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="/login" method="post">
+        <div>
+            <h1>login</h1>
+
+            <form>
+                <label for="nomes">User</label>
+                <input type="text" name="nomes" id="nomes" placeholder="digite seu User" required>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="digite sua Senha" required>
+            </form>
+
+            <button type="submit" value="entrar" id="btn-login">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Entrar
+            </button>
+
+            <div id="registro">
+                <p>ainda nao e membro?</p>
+                <a href="/membro" target="_blank">tornarse membro</a>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+
+</html>
